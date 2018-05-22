@@ -169,6 +169,14 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/platform-server@^6.0.0":
+  version "6.0.2"
+  resolved "http://registry.npm.taobao.org/@angular/platform-server/download/@angular/platform-server-6.0.2.tgz#d9f941a56b560763edc7232cc09e60ccd8d23b2b"
+  dependencies:
+    domino "^2.0.1"
+    tslib "^1.9.0"
+    xhr2 "^0.1.4"
+
 "@angular/pwa@^0.6.3":
   version "0.6.3"
   resolved "http://registry.npm.taobao.org/@angular/pwa/download/@angular/pwa-0.6.3.tgz#d76ad3eaace3215421592e5675f27e8c3ac33288"
@@ -1815,6 +1823,10 @@ domhandler@2.1:
   resolved "http://registry.npm.taobao.org/domhandler/download/domhandler-2.1.0.tgz#d2646f5e57f6c3bab11cf6cb05d3c0acf7412594"
   dependencies:
     domelementtype "1"
+
+domino@^2.0.1:
+  version "2.0.2"
+  resolved "http://registry.npm.taobao.org/domino/download/domino-2.0.2.tgz#fa2da6ace8381cf64089079470ee33c53901010f"
 
 domutils@1.1:
   version "1.1.6"
@@ -6427,6 +6439,10 @@ ws@^1.0.1:
 wtf-8@1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/wtf-8/download/wtf-8-1.0.0.tgz#392d8ba2d0f1c34d1ee2d630f15d0efb68e1048a"
+
+xhr2@^0.1.4:
+  version "0.1.4"
+  resolved "http://registry.npm.taobao.org/xhr2/download/xhr2-0.1.4.tgz#7f87658847716db5026323812f818cadab387a5f"
 
 xml2js@0.4.4:
   version "0.4.4"

@@ -34,3 +34,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 4. npm install -g http-server && cd dist/ng-next && http-server
 5. npm install ngrok -g  && ngrok http 8080
 
+##ng add universal
+link: https://blog.angular-university.io/angular-app-shell/
+1. ng generate universal ngu-app-shell --client-project=ng-next
+2. ng generate app-shell my-loading-shell --universal-project=ngu-app-shell --route=app-shell-path --client-project=ng-next
