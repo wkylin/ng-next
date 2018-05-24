@@ -43,3 +43,7 @@ link:
 
 ## delete pwa
 1. Restore browser default settings
+
+
+###More than one module matches. Use skip-import option to skip importing the component into the closest module.
+ng g c my-button --module app --inline-style --inline-template -v Native
