@@ -75,6 +75,15 @@
     typescript "~2.7.2"
     webpack-sources "^1.1.0"
 
+"@angular-devkit/core@0.5.13", "@angular-devkit/core@^0.5.4":
+  version "0.5.13"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/core/download/@angular-devkit/core-0.5.13.tgz#c48c83c1bf38917e6af3f399d221d29466be9677"
+  dependencies:
+    ajv "~6.4.0"
+    chokidar "^2.0.3"
+    rxjs "^6.0.0"
+    source-map "^0.5.6"
+
 "@angular-devkit/core@0.6.3":
   version "0.6.3"
   resolved "http://registry.npm.taobao.org/@angular-devkit/core/download/@angular-devkit/core-0.6.3.tgz#862fff08c081c1d82feb8fef671688a735625c79"
@@ -89,6 +98,13 @@
   resolved "http://registry.npm.taobao.org/@angular-devkit/schematics/download/@angular-devkit/schematics-0.6.3.tgz#70e22690ec5f3f0b94b846f280491aee559feff8"
   dependencies:
     "@angular-devkit/core" "0.6.3"
+    rxjs "^6.0.0"
+
+"@angular-devkit/schematics@^0.5.4":
+  version "0.5.13"
+  resolved "http://registry.npm.taobao.org/@angular-devkit/schematics/download/@angular-devkit/schematics-0.5.13.tgz#be90657c668cddae4054645a61d4cf852de51ede"
+  dependencies:
+    "@angular-devkit/core" "0.5.13"
     rxjs "^6.0.0"
 
 "@angular/animations@6.0.3":
@@ -204,6 +220,18 @@
   dependencies:
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
+
+"@ng-bootstrap/ng-bootstrap@^2.0.0-alpha.0":
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/@ng-bootstrap/ng-bootstrap/download/@ng-bootstrap/ng-bootstrap-2.0.0.tgz#65f78c7dd5a8ac424f44bb2050a9eab247cdeb0c"
+
+"@ng-bootstrap/schematics@^2.0.0-alpha.1":
+  version "2.0.0-alpha.1"
+  resolved "http://registry.npm.taobao.org/@ng-bootstrap/schematics/download/@ng-bootstrap/schematics-2.0.0-alpha.1.tgz#4ac4a2237e256ef6d4e1dc28984ff37eabf711e8"
+  dependencies:
+    "@angular-devkit/core" "^0.5.4"
+    "@angular-devkit/schematics" "^0.5.4"
+    typescript "~2.7.2"
 
 "@ngtools/webpack@6.0.3":
   version "6.0.3"
@@ -1464,6 +1492,10 @@ boom@5.x.x:
   resolved "http://registry.npm.taobao.org/boom/download/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
   dependencies:
     hoek "4.x.x"
+
+bootstrap@^4.0.0:
+  version "4.1.1"
+  resolved "http://registry.npm.taobao.org/bootstrap/download/bootstrap-4.1.1.tgz#3aec85000fa619085da8d2e4983dfd67cf2114cb"
 
 brace-expansion@^1.1.7:
   version "1.1.11"

@@ -27,12 +27,15 @@
     "@angular/pwa": "^0.6.3",
     "@angular/router": "6.0.3",
     "@angular/service-worker": "6.0.3",
+    "@ng-bootstrap/schematics": "^2.0.0-alpha.1",
     "@nguniversal/express-engine": "^v6.0.0",
     "@nguniversal/module-map-ngfactory-loader": "^v6.0.0",
     "core-js": "^2.5.4",
     "rxjs": "6.2.0",
     "ts-loader": "^4.3.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "@ng-bootstrap/ng-bootstrap": "^2.0.0-alpha.0",
+    "bootstrap": "^4.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.6.3",
