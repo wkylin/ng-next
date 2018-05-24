@@ -40,3 +40,6 @@ link:
  2. https://blog.angular-university.io/angular-universal/
  3. ng generate universal ngu-app-shell --client-project=ng-next
  4. ng generate app-shell my-loading-shell --universal-project=ngu-app-shell --route=app-shell-path --client-project=ng-next
+
+## delete pwa
+1. Restore browser default settings
